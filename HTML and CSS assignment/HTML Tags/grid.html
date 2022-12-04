@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID CSS</title>
+    <style>
+      .container {
+        background-color: #808080;
+        height: 100vh;
+        /* width: 100vh; */
+        display: grid;
+        /* FR: 1 fraction of Entrie Width */
+        /* grid-template-columns: repeat(3, 1fr); */
+
+        /* grid-template-rows: ; */
+        /* row-gap: 100px;
+                  column-gap: 200px ; */
+        color: white;
+        /* gap: 20px; */
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        /* grid-column: ; */
+        row-gap: 30px;
+        column-gap: 60px;
+        /* justify-content: center;
+        align-content: center; */
+        align-items: center;
+        justify-items: flex-end;
+      }
+      .items {
+        background-color: #242323;
+        height: 70px;
+        width: 70px;
+        /* grid-column-start: 2; */
+        /* grid-column: ; */
+        margin: 10px;
+      }
+      /* .item1 {
+        grid-area: item1;
+      }
+
+      .item2 {
+        grid-area: item2;
+      }
+      .item3 {
+        grid-area: item3;
+      }
+      .item4 {
+        grid-area: item4;
+      }
+      .item5 {
+        grid-area: item5;
+      }
+      .item6 {
+        grid-area: item6;
+      } */
+      /* .item1 {
+        /* grid-column-start: 1;
+                  grid-column-end: 3; */
+      /* grid-row-start: 1;
+              grid-row-end: 3; */
+      /* }  */
+      .item1 {
+        /* grid-area: item1; */
+        justify-self: end;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        - HTML
+        - CSS
+            - Selector
+            - Pseudo
+            - Marigin
+            - padding
+            - border
+            - background
+            - height
+            - width 
+            - media query 
+            - flex
+            - grid
+            - nth- child
+            - postions
+            - display 
+            - text
+     -->
+    <!-- 
+        - Tailwind
+        - BootStrap
+        - Git and Github
+        - Markdoown
+      -->
+    <div class="container">
+      <div class="items item1">One</div>
+      <div class="items item2">Two</div>
+      <div class="items item3">three</div>
+      <div class="items item4">four</div>
+      <div class="items item5">five</div>
+      <div class="items item6">six</div>
+    </div>
+    <!-- <div class="items">seven</div>
+    <div class="items">eight</div>
+    <div class="items">nine</div> -->
+  </body>
+</html>
