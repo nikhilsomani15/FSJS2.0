@@ -28,7 +28,7 @@
 
 **Project 7(VS Code Clone)**
 
-[Solution](./HTML%20and%20CSS%20assignment/VsCode_Clone)
+[Solution](<./HTML%20and%20CSS%20assignment/VsCode_Clone(Project)>)
 
 **Project 8(Yellow Tshirt)**
 

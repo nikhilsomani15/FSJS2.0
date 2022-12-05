@@ -12,6 +12,6 @@
 
 6. [Project 6](./FSJS%202.0%20Project%2006)
 
-7. [Vs Code Clone](./VsCode_Clone)
+7. [Vs Code Clone](./VsCode_Clone(Project))
 
 8. [Yellow Tshirt Project](./yellowtshirt)
