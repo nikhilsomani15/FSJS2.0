@@ -4,35 +4,35 @@
 
 **Project 1**
 
-[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2001/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2001)
 
 **Project 2**
 
-[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2002/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2002)
 
 **Project 3**
 
-[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2003/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2003)
 
 **Project 4**
 
-[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2004/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2004)
 
 **Project 5**
 
-[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2005/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2005)
 
 **Project 6**
 
-[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2006/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/FSJS%202.0%20Project%2006)
 
 **Project 7(VS Code Clone)**
 
-[Solution](./HTML%20and%20CSS%20assignment/VsCode_Clone/Readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/VsCode_Clone)
 
 **Project 8(Yellow Tshirt)**
 
-[Solution](./HTML%20and%20CSS%20assignment/yellowtshirt/readme.md)
+[Solution](./HTML%20and%20CSS%20assignment/yellowtshirt)
 
 ## Articles
 
