@@ -1,7 +1,42 @@
 * {
   margin: 0;
   padding: 0;
+  color: #ffffff;
 }
 body {
   background-color: #151515;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6%;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.nav-list-right {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.absolute {
+  position: absolute;
+  right: 145px;
+}
+.cardsection {
+  display: flex;
+  height: 100vh;
+}
+.cardfront,
+.cardback {
+  position: absolute;
+}
+.cardfront {
+  top: 10;
+  right: 0;
+}
+.cardsection section {
+  width: 50%;
 }
