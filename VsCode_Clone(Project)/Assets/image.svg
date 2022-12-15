@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1.57 0 0 1.57 40.04 40.03)" clip-path="url(#CLIPPATH_14)"  >
+<clipPath id="CLIPPATH_14" >
+	<rect transform="matrix(1 0 0 1 -78 27)" x="-103" y="-52" rx="0" ry="0" width="206" height="104" />
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(68,68,68); fill-rule: evenodd; opacity: 1;"  transform=" translate(-181, -25)" d="M 184.125 3.125 L 187.25 0 H 202.875 L 206 3.125 V 18.75 L 202.875 21.875 H 187.25 L 184.125 18.75 V 3.125 Z M 187.25 3.125 V 18.75 H 202.875 V 3.125 H 187.25 Z M 156 31.25 V 12.5 L 159.125 9.37499 H 174.75 L 177.875 12.5 V 28.125 L 176.312 29.6875 L 176.313 29.6876 L 177.875 28.125 H 193.5 L 196.625 31.25 V 46.875 L 193.5 50 H 177.875 H 174.75 V 49.9997 L 174.75 50 H 159.125 L 156 46.875 V 31.25 Z M 159.125 46.875 V 31.25 H 174.75 V 46.875 H 159.125 Z M 177.875 46.875 V 31.25 H 193.5 V 46.875 H 177.875 Z M 159.125 28.125 V 12.5 H 174.75 V 28.125 H 159.125 Z" stroke-linecap="round" />
+</g>
+</svg>
