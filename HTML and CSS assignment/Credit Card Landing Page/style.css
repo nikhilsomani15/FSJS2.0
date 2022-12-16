@@ -25,18 +25,73 @@ nav {
   position: absolute;
   right: 145px;
 }
+.gets {
+  position: absolute;
+  top: 0px;
+}
 .cardsection {
-  display: flex;
+  /* display: flex; */
+  position: relative;
   height: 100vh;
+  margin-top: 60px;
 }
 .cardfront,
 .cardback {
+  z-index: -1;
   position: absolute;
 }
 .cardfront {
-  top: 10;
-  right: 0;
+  right: -240px;
+  /* top: 0px; */
+  top: -60px;
 }
-.cardsection section {
-  width: 50%;
+.pink-text {
+  color: #f637ec;
+}
+.cardback {
+  top: -120px;
+  right: -20px;
+}
+.leftsection {
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: 0 6%; */
+  padding-left: 6%;
+}
+.headingmain {
+  font-size: 100px;
+  width: 79%;
+}
+.paragraphmain {
+  margin-top: 30px;
+  font-size: 30px;
+  width: 55%;
+}
+.btn {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.flexx,
+.flexgap,
+.seperater {
+  display: flex;
+}
+.font20 {
+  font-size: 20px;
+}
+.marginleft {
+  margin-left: 25px;
+}
+.flexgap {
+  gap: 20px;
+}
+.textlarge {
+  font-size: 40px;
+}
+.seperater {
+  gap: 40px;
+}
+.relative {
+  position: relative;
 }
