@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+body {
+  background-color: #151515;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6%;
+  height: 15vh;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.nav-list-right {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.absolute {
+  position: absolute;
+  right: 145px;
+}
+.gets {
+  position: absolute;
+  top: 0px;
+}
+.cardsection {
+  /* display: flex; */
+  position: relative;
+  height: 100vh;
+  margin-top: 60px;
+}
+.cardfront,
+.cardback {
+  z-index: -1;
+  position: absolute;
+}
+.cardfront {
+  right: -240px;
+  /* top: 0px; */
+  top: -80px;
+}
+.pink-text {
+  color: #f637ec;
+}
+.cardback {
+  top: -140px;
+  right: -20px;
+}
+.leftsection {
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: 0 6%; */
+  padding-left: 6%;
+}
+.headingmain {
+  font-size: 100px;
+  width: 79%;
+}
+.paragraphmain {
+  margin-top: 30px;
+  font-size: 30px;
+  width: 55%;
+}
+.btn {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.flexx,
+.flexgap,
+.seperater {
+  display: flex;
+}
+.font20 {
+  font-size: 20px;
+}
+.marginleft {
+  margin-left: 25px;
+}
+.flexgap {
+  gap: 20px;
+}
+.textlarge {
+  font-size: 40px;
+}
+.seperater {
+  gap: 40px;
+}
+.relative {
+  position: relative;
+}
+.logosection {
+  margin-top: 20px;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #292929;
+}
+.para {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  /* height: 40vh; */
+  padding: 100px 70px;
+}
+.font40 {
+  font-size: 80px;
+  width: 50%;
+}
+.font20 {
+  font-size: 31px;
+  width: 38%;
+}
+.icons {
+  justify-content: space-evenly;
+}
+.text-center {
+  text-align: center;
+}
+.topflex {
+  margin-top: 60px;
+
+  background-color: #272727;
+}
+.width20 {
+  width: 80%;
+  font-size: 30px;
+}
+.font10 {
+  font-size: 30px;
+}
+.marginleft30 {
+  margin: 0 auto;
+}
+.padding {
+  padding: 41px;
+}
+.bg4F4C4B {
+  background-color: #4f4c4b;
+}
+.paddingless {
+  margin-bottom: 60px;
+  width: 340px;
+}
