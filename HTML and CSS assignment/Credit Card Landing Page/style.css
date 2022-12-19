@@ -214,12 +214,65 @@ nav {
   grid-row: 1fr 1fr;
   justify-items: center;
   margin: 0 auto;
-  gap: 10px;
+  gap: 80px;
   margin-top: 100px;
 }
 .a {
-  height: 200px;
   width: 350px;
   border: 2px solid #fff;
   box-shadow: inset 2px;
+  padding: 20px 20px;
+}
+.paracustomer {
+  padding: 20px 0px;
+}
+.bg1 {
+  background-color: #464341;
+}
+.bg2 {
+  background-color: #1e1f24;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  margin: 100px 0;
+}
+.flexxfooter {
+  display: flex;
+  gap: 30px;
+  margin-right: 260px;
+}
+.custom {
+  position: relative;
+  height: 80vh;
+  margin: 200px auto;
+  background-color: #ac4ea7;
+}
+.diamond {
+  position: absolute;
+  display: flex;
+  gap: 400px;
+}
+.white-text {
+  font-size: 80px;
+  text-align: center;
+  width: 70%;
+  margin: 80px auto;
+  margin-bottom: 40px;
+}
+.black-text {
+  color: #000;
+}
+.customgetstarted {
+  /* width: 50%; */
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+}
+.btnpink {
+  position: relative;
+  left: 630px;
+  top: 36px;
+  height: 35px;
 }
