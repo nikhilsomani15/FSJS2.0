@@ -30,7 +30,7 @@ nav {
 }
 .gets {
   position: absolute;
-  top: 0px;
+  top: 70px;
 }
 .cardsection {
   /* display: flex; */
@@ -120,6 +120,9 @@ nav {
 }
 .font20 {
   font-size: 31px;
+}
+.font30 {
+  font-size: 31px;
   width: 38%;
 }
 .icons {
@@ -144,12 +147,79 @@ nav {
   margin: 0 auto;
 }
 .padding {
-  padding: 41px;
+  padding: 40px;
 }
 .bg4F4C4B {
   background-color: #4f4c4b;
 }
 .paddingless {
-  margin-bottom: 61px;
+  margin-bottom: 60px;
   width: 340px;
+}
+.cardchoices {
+  position: relative;
+  margin-top: 100px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  background-color: #fceffb;
+  text-align: center;
+  height: 170vh;
+  /* gap: 30px; */
+}
+.heading3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #000;
+}
+.textlarge {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.textblack {
+  color: #000;
+  font-size: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+.absoluteimage1 {
+  position: absolute;
+  left: 200px;
+  /* top: -20px; */
+  top: 290px;
+}
+.customer {
+  /* text-align: center; */
+  margin-top: 100px;
+}
+.customerh3 {
+  text-align: center;
+  width: 50%;
+  font-size: 60px;
+  margin: 0 auto;
+}
+.custtomerparagraph {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  width: 38%;
+  margin-top: 40px;
+}
+.grid4 {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
+  justify-items: center;
+  margin: 0 auto;
+  gap: 10px;
+  margin-top: 100px;
+}
+.a {
+  height: 200px;
+  width: 350px;
+  border: 2px solid #fff;
+  box-shadow: inset 2px;
 }
