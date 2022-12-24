@@ -3,9 +3,31 @@
   margin: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: pink;
+}
+/* NAV */
+nav {
+  padding: 30px 5%;
+  background-color: #111010;
+  color: #929191;
 }
 .flex {
   display: flex;
-  flex-direction: column;
+}
+.nav-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-mid {
+  gap: 30px;
+}
+.nav-btn {
+  background-color: #0c8bfd;
+  padding: 10px 26px;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+}
+.hosting {
+  background-color: #111010;
+  color: #fff;
 }
