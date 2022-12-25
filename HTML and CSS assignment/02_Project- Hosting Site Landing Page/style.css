@@ -6,6 +6,10 @@
 }
 
 /* NAV */
+body {
+  /* width: 1400px;
+  margin: 0 auto; */
+}
 nav {
   padding: 30px 5%;
   background-color: #111010;
@@ -129,8 +133,7 @@ nav {
 }
 .support-section {
   padding: 35px 5%;
-  width: 1130px;
-  max-width: 95%;
+  /* width: 1130px; */
   margin: 90px auto;
 }
 .support-section-heading {
@@ -291,8 +294,9 @@ nav {
 .customer-say {
   display: flex;
   padding: 30px 5%;
-
+  margin: 90px 0;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 .customer-say h2 {
   font-size: 50px;
@@ -303,7 +307,7 @@ nav {
   color: #827e7e;
 }
 .review {
-  margin-top: 70px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -397,4 +401,5 @@ footer {
 }
 .end-logo {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
