@@ -4,10 +4,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
-body {
-  width: 1400px;
-  margin: 0 auto;
-}
+
 /* NAV */
 nav {
   padding: 30px 5%;
@@ -290,4 +287,114 @@ nav {
 .hosting-service-card2 {
   background-color: #0c8bfd;
   color: #fff;
+}
+.customer-say {
+  display: flex;
+  padding: 30px 5%;
+
+  justify-content: space-between;
+}
+.customer-say h2 {
+  font-size: 50px;
+  width: 25%;
+}
+.customer-say p {
+  font-size: 30px;
+  color: #827e7e;
+}
+.review {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+}
+.review-1 {
+  border: 1px solid #000000;
+  padding: 40px 60px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+}
+.review-2 {
+  border: 1px solid #000000;
+  padding: 40px 60px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #111010;
+  position: relative;
+  left: 190px;
+}
+.review-1 h3 {
+  margin: 10px 0;
+}
+.review-1 p {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.review-2 h3 {
+  margin: 10px 0;
+}
+.review-2 p {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.signup {
+  margin-top: 100px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 5%;
+}
+.signup-content h1 {
+  font-size: 50px;
+  margin: 80px 0;
+}
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 10px;
+  border: none;
+  background-color: #292828;
+  border-radius: 40px;
+}
+.signup-container input {
+  padding: 20px 80px;
+  border-radius: 40px;
+  padding-left: 20px;
+  color: #aeaaaa;
+  background-color: #3e3d3d;
+  border: none;
+  font-size: 20px;
+}
+.sign-up-btn {
+  padding: 20px 50px;
+  background-color: #0c8bfd;
+  border-radius: 40px;
+  color: #fff;
+  border: none;
+}
+footer {
+  padding: 30px 5%;
+  color: #fff;
+  background-color: #292828;
+  background-color: #000;
+}
+.hr10 {
+  margin-top: 60px;
+}
+.company-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  padding: 30px 5%;
+}
+.company-links ul li:first-child {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.end-logo {
+  margin-top: 20px;
 }
