@@ -1,5 +1,7 @@
-# Replicate the Following Output
+# Work of Project 10
 
-`Assests are Provided!`
+**Project 10(Hosting Landing Page)**
 
-![Project 2](./Hosting%20Landing%20Page.png)
+[Solution](./Project-2%20Hosting%20Site)
+
+![](./Hosting%20Landing%20Page.png)

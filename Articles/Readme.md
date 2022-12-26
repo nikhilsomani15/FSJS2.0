@@ -11,3 +11,5 @@
 5. [CSS Grid](https://nikhil15.hashnode.dev/css-grid "Article 5")
 
 6. [CSS Media Queries!!](https://nikhil15.hashnode.dev/css-media-queries "Article 6")
+
+7. [Array in JavaScript and its Methods](https://nikhil15.hashnode.dev/array-in-javascript-and-its-methods "Article 7")

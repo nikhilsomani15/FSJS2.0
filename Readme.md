@@ -34,6 +34,14 @@
 
 [Solution](./HTML%20and%20CSS%20assignment/yellowtshirt)
 
+**Project 9(Credit Card Landing Page)**
+
+[Solution](./HTML%20and%20CSS%20assignment/Credit%20Card%20Landing%20Page)
+
+**Project 10(Hosting Site Landing Page)**
+
+[Solution](./HTML%20and%20CSS%20assignment/02_Project-%20Hosting%20Site%20Landing%20Page)
+
 ## Articles
 
 1. [Introduction to Web and HTML](https://nikhil15.hashnode.dev/introduction-to-web-and-html "Article 1")
@@ -47,3 +55,5 @@
 5. [CSS Grid](https://nikhil15.hashnode.dev/css-grid "Article 5")
 
 6. [CSS Media Queries!!](https://nikhil15.hashnode.dev/css-media-queries "Article 6")
+
+7. [Array in JavaScript and its Methods](https://nikhil15.hashnode.dev/array-in-javascript-and-its-methods "Article 7")
