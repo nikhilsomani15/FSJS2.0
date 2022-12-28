@@ -21,6 +21,7 @@ nav {
 }
 .nav-mid {
   gap: 30px;
+  cursor: pointer;
 }
 .nav-btn {
   background-color: #0c8bfd;
@@ -28,6 +29,7 @@ nav {
   color: #fff;
   border: none;
   border-radius: 40px;
+  cursor: pointer;
 }
 .hosting {
   background-color: #111010;

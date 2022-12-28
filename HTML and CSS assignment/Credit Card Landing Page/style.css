@@ -18,11 +18,13 @@ nav {
   display: flex;
   list-style: none;
   gap: 50px;
+  cursor: pointer;
 }
 .nav-list-right {
   display: flex;
   list-style: none;
   gap: 50px;
+  cursor: pointer;
 }
 .absolute {
   position: absolute;
