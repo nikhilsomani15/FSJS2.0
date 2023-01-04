@@ -1,0 +1,28 @@
+* {
+  color: #fff;
+  /* background-color: #000; */
+  overflow-x: hidden;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.top {
+  background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/futuristic-bg.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 100vh;
+  z-index: -1;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.nav-mid {
+  gap: 30px;
+  list-style: none;
+  margin-right: 300px;
+}
