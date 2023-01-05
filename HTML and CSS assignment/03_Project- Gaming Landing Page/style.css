@@ -15,6 +15,7 @@
   background-position: 0 0;
   height: 100vh;
   z-index: -1;
+  color: #929191;
 }
 nav {
   justify-content: space-between;
@@ -25,4 +26,12 @@ nav {
   gap: 30px;
   list-style: none;
   margin-right: 300px;
+}
+.nav-right {
+  gap: 30px;
+}
+.nav-right li button {
+  background-color: rgb(225, 109, 21);
+  border: none;
+  padding: 8px 16px;
 }
