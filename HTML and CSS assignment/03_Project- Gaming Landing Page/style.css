@@ -15,23 +15,40 @@
   background-position: 0 0;
   height: 100vh;
   z-index: -1;
-  color: #929191;
 }
 nav {
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 16px 10px;
 }
 .nav-mid {
   gap: 30px;
   list-style: none;
   margin-right: 300px;
 }
+.nav-mid li {
+  color: #929191;
+}
 .nav-right {
   gap: 30px;
+  align-items: center;
 }
-.nav-right li button {
+.nav-right button {
   background-color: rgb(225, 109, 21);
   border: none;
   padding: 8px 16px;
+  margin: 0;
+}
+.improvement {
+  height: 60vh;
+}
+.improvement-left {
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.improvement-left h3 {
+  font-size: 50px;
+  width: 80%;
+  margin: 0;
 }
