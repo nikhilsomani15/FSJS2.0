@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      body {
+        /* background-color: #000; */
+        /* color: #fff; */
+        height: 100vh;
+        width: 100%;
+      }
+      .circle1 {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        /* background-color: #fff; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="nik"></h1>
+    <button>Color Change</button>
+    <script>
+      // console.log(document);
+      // console.log(document.documentElement);
+      // console.log(document.head);
+      // console.log(document.body);
+      // let body1 = document.querySelector("body");
+
+      //       document.addEventListener("click", function (event) {
+      //         let circle = document.createElement("div");
+      //         circle.classList.add("circle1");
+      //         circle.style.left = event.clientX - 10 + "px";
+      //         circle.style.top = event.clientY - 10 + "px";
+      //         const randomColor = Math.floor(Math.random() * 16777219).toString(16);
+      //         console.log(randomColor);
+      //         circle.style.backgroundColor = "#" + randomColor;
+      // document.getElementsByTagName
+      //         document.body.appendChild(circle);
+      //       });
+      // const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+      // document.body.style.backgroundColor = "#" + randomColor;
+
+      // let promt = prompt("hi 10");
+      // if (promt == 10) {
+      //   document.getElementById("nik").innerText = "Success";
+      //   document.getElementById("nik").style.color = "green";
+      // } else {
+      //   document.getElementById("nik").innerText = "Fail";
+      // }
+      // let randomColorGenerator = () => {
+      //   let val = "0123456789ABCDEF";
+      //   let add = "#";
+      //   for (let i = 0; i < 6; i++) {
+      //     add += val[Math.floor(Math.random() * 16)];
+      //   }
+      //   return add;
+      // };
+      // let changeColor = () => {
+      //   document.body.style.backgroundColor = randomColorGenerator();
+      // };
+      // document.querySelector("button").addEventListener("click", changeColor);
+      // // document.body.removeChild()
+      let arr = [1, 2, 3, 4, 6];
+      // let s = arr.reduce((acc, curr) => console.log(acc), 0);
+      // console.log(s);
+      let [one, ...m] = ["Nikhil", "nikhil", "somani", "Somani"];
+      // console.log(m, ...m);
+      try {
+        console.log(arr1);
+      } catch (err) {
+        console.log(err.name);
+      }
+      console.log(1 / 0);
+      // console.log(arr1.sort());
+      // console.log(arr1);
+    </script>
+  </body>
 </html>
