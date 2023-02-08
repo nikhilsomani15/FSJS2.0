@@ -27,5 +27,12 @@ newArr.forEach((e) => (e.style.display = "none"));
 ## Solution
 
 ```JavaScript
-
+let formInput = document.querySelector(".main__form-input");
+formInput.disabled = false;
+let btn = document.querySelector(".main__form-btn");
+btn.disabled = false;
+btn.addEventListener("click", (event) => {
+formInput.value = "";
+event.preventDefault();
+newArr.forEach((e) => (e.style.display = "inline"));});
 ```
