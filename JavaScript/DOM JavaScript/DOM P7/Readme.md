@@ -28,8 +28,8 @@ newArr.forEach((e) => (e.style.display = "none"));
 
 ```JavaScript
 let formInput = document.querySelector(".main__form-input");
-formInput.disabled = false;
 let btn = document.querySelector(".main__form-btn");
+formInput.disabled = false;
 btn.disabled = false;
 btn.addEventListener("click", (event) => {
 formInput.value = "";
