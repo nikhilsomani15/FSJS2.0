@@ -34,5 +34,4 @@ skills.appendChild(h3);
 skills.appendChild(p);
 addChild.appendChild(skills);
 p.style.display = "block";
-
 ```
