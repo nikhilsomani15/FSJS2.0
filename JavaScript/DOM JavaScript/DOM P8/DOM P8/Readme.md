@@ -26,7 +26,7 @@
       list.appendChild(h2);
       list.style.outline = "3px solid red";
       list.style.outlineOffset = "10px";
-      list.style.padding = "10px";
+      list.style.padding = "12px";
 ```
 
 ## Input Image 2
