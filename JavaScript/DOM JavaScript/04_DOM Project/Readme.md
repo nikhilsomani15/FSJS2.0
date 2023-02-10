@@ -18,7 +18,7 @@ green.style.backgroundColor = "#82bb30";
 let blue = document.querySelector(".clash-card__unit-stats--wizard");
 blue.style.backgroundColor = "#4FACFF";
 let textWhite = document.querySelectorAll(".clash-card__unit-stats");
-textWhite.forEach((e) => (e.style.color = "#FFF"));
+textWhite.forEach((e) => (e.style.color = "#FFFFFF"));
 let textWhite1 = document.querySelectorAll(".one-third");
 textWhite1.forEach((e) => (e.style.color = "#FFF"));
 ```
