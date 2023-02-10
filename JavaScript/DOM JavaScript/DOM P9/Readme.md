@@ -11,8 +11,6 @@
 ## Solution
 
 ```JavaScript
-document.querySelector(".caption .title").style.color = "red";
-
 
 ```
 
@@ -27,7 +25,5 @@ document.querySelector(".caption .title").style.color = "red";
 ## Solution
 
 ```JavaScript
-let redBg = document.querySelector(".add-to-cart");
-redBg.addEventListener("mouseover",() => (redBg.style.backgroundColor = "red"));
-redBg.addEventListener("mouseout",() => (redBg.style.backgroundColor = "hsl(158, 36%, 37%)"));
+
 ```
