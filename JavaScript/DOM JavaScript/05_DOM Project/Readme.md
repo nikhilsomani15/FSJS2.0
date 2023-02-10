@@ -20,10 +20,10 @@ let addA = document.querySelector(".tags-container div");
 addA.appendChild(a);
 let blueviolet = document.querySelectorAll(".recipe-text");
 blueviolet.forEach((e) => (e.style.color = "blueviolet"));
-let card = document.createElement("div");
+let card1 = document.createElement("div");
 let h = document.createElement("h1");
 h.innerText = "add 6th card here";
-card.className = "card";
-card.appendChild(h);
-document.querySelector(".recipe-gallery").appendChild(card);
+card1.className = "card";
+card1.appendChild(h);
+document.querySelector(".recipe-gallery").appendChild(card1);
 ```
