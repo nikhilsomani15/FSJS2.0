@@ -11,21 +11,22 @@
 ## Solution
 
 ```JavaScript
-        let hr = document.querySelectorAll(".hr-line")[1];
-        console.log(hr);
-        let h2 = document.createElement("h2");
-        h2.classList.add("new-head");
-        h2.innerText = "This is custom heading";
-        let p = document.createElement("p");
-        p.classList.add("new-p");
-        p.innerText = "This is my custom Paragraph";
-
-        let list = document.querySelector("aside");
-        list.style.overflow = "scroll";
-        list.appendChild(hr);
-        h2.appendChild(p);
-        list.appendChild(h2);
-        list.style.border = "3px solid red";
+      let hr = document.querySelectorAll(".hr-line")[1];
+      console.log(hr);
+      let h2 = document.createElement("h2");
+      h2.classList.add("new-head");
+      h2.innerText = "This is custom heading";
+      let p = document.createElement("p");
+      p.classList.add("new-p");
+      p.innerText = "This is my custom Paragraph";
+      let list = document.querySelector("aside");
+      list.style.overflow = "scroll";
+      list.appendChild(hr);
+      h2.appendChild(p);
+      list.appendChild(h2);
+      list.style.outline = "3px solid red";
+      list.style.outlineOffset = "10px";
+      list.style.padding = "10px";
 ```
 
 ## Input Image 2
