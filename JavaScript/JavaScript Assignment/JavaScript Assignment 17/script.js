@@ -14,5 +14,5 @@ let months = {
   December: 31,
 };
 for (const key in months) {
-  console.log(`${key} has total ${months[key]} days`);
+  console.log(`${key} has total of ${months[key]} days`);
 }
