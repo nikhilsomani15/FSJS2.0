@@ -20,7 +20,7 @@ const App = () => {
   const changeItem = (itemNumber) => {
     //
   };
-  return <div className="App"></div>;
+  return <div className=""></div>;
 };
 
 export default App;
