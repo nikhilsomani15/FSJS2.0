@@ -1,16 +1,14 @@
-function setState(){
-    let score = 22
-    return [score]
+function setState() {
+  let score = 30;
+  return [score];
 }
 
-let [myScore] = setState()
+let [myScore] = setState();
 myScore;
-myScore = 12
+myScore = 12;
 console.log(myScore);
 
-let [anotherScore] = setState()
+let [anotherScore] = setState();
 anotherScore;
 
 console.log(anotherScore);
-
-
