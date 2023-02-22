@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React, { Component, useState } from "react";
 import Icon from "./components/Icon";
 import { ToastContainer, toast } from "react-toastify";
@@ -25,9 +24,6 @@ const App = () => {
       setWinMessage(`${itemArr[0]} is winner`);
     } else if (
       itemArr[3] !== "empty" &&
-      // 0 1 2
-      //                           3 4 5
-      //                           6 7 8
       itemArr[3] === itemArr[4] &&
       itemArr[4] === itemArr[5]
     ) {
@@ -85,21 +81,21 @@ const App = () => {
     <Container className="p-5">
       <ToastContainer position="bottom-center" />
       <Row>
-        {winMessage ? (
-          <div className="mb-2 mt-2">
-            <h1 className="text-primary text-uppercase text-center">
-              {winMessage}
-            </h1>
-            <Button color="success" block onClick={reloadGame}>
-              Reload Game
-            </Button>
-          </div>
-        ) : (
-          <h1 className="text-center text-warning">
-            {isCross ? "Cross" : "Circle"} turns
-          </h1>
-        )}
         <Col md={6} className="offset-md-3">
+          {winMessage ? (
+            <div className="mb-2 mt-2">
+              <h1 className="text-primary text-uppercase text-center">
+                {winMessage}
+              </h1>
+              <Button color="success" block onClick={reloadGame}>
+                Reload Game
+              </Button>
+            </div>
+          ) : (
+            <h1 className="text-center text-success">
+              {isCross ? "Cross" : "Circle"} turns
+            </h1>
+          )}
           <div className="grid">
             {itemArr.map((item, index) => (
               <Card color="warning" onClick={() => changeItem(index)}>
