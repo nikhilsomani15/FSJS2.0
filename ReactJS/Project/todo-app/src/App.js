@@ -8,7 +8,6 @@ import { TodoForm } from "./Componentes/TodoForm";
 import Todos from "./Componentes/Todos";
 const App = () => {
   const [todos, dispatch] = useReducer(todoReducer, []);
-
   return (
     <Context.Provider value={{ todos, dispatch }}>
       <Container fluid>

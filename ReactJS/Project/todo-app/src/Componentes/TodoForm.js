@@ -1,6 +1,5 @@
 import React, { useState, useContext } from "react";
 import { FormGroup, Input, Button, Form, InputGroup } from "reactstrap";
-
 import { v4 } from "uuid";
 import Context from "../Context/Context";
 import { ADD_TODO } from "../Context/action.types";
@@ -14,13 +13,13 @@ export const TodoForm = () => {
     if (todoString == "") {
       return alert("Please Enter a TODO");
     }
-    const todo = {
-      todoString,
+    const todos = {
       id: v4(),
+      todoString,
     };
     dispatch({
       type: ADD_TODO,
-      payload: todo,
+      payload: todos,
     });
     setTodoString("");
   };
@@ -33,16 +32,10 @@ export const TodoForm = () => {
             name="todo"
             id="todo"
             placeholder="Your next todo"
-            //TODO: value onChange
             value={todoString}
             onChange={(e) => setTodoString(e.target.value)}
           />
-          <Button
-            color="warning"
-            //TODO: onclick
-          >
-            Add Todo
-          </Button>
+          <Button color="warning">Add Todo</Button>
         </InputGroup>
       </FormGroup>
     </Form>
