@@ -2,17 +2,18 @@ import React from "react";
 import { ListGroup, ListGroupItem } from "reactstrap";
 import { FaCheckDouble } from "react-icons/fa";
 
-export const Todos = ({ todos, markComplete }) => {
+const Todos = ({ todos, markComplete }) => {
   return (
-    <ListGroup>
-      {todos.map((todo) => {
+    <ListGroup className="mt-5 mb-2 items">
+      {todos.map((todo) => (
         <ListGroupItem key={todo.id}>
           {todo.todoString}
-          <span className="right" onClick={() => markComplete(todo.id)}>
-            <FaCheckDouble />
+          <span onClick={() => markComplete(todo.id)}>
+            <FaCheckDouble className="right" />
           </span>
-        </ListGroupItem>;
-      })}
+        </ListGroupItem>
+      ))}
     </ListGroup>
   );
 };
+export default Todos;
