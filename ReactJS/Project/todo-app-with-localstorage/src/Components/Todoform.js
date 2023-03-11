@@ -6,7 +6,7 @@ const Todoform = ({ addTodos }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (todoString === "") {
-      return alert("Please enter a todo");
+      return alert("Please enter a todo to proceed");
     }
     const todo = {
       todoString,
