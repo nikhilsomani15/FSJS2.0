@@ -9,7 +9,7 @@ export const TodoForm = () => {
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (todoString == "") {
+    if (todoString === "") {
       return alert("Please Enter a TODO");
     }
 
@@ -23,7 +23,7 @@ export const TodoForm = () => {
         type="text"
         value={todoString}
         onChange={(e) => setTodoString(e.target.value)}
-        placeholder="Enter Todo"
+        placeholder="Enter a Todo"
       />
       <button type="submit">Submit todo</button>
     </form>
