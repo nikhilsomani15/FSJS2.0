@@ -12,8 +12,11 @@ export const TodoForm = () => {
     if (todoString === "") {
       return alert("Please Enter a TODO");
     }
-
-    dispatch(addTodo(todoString));
+    const todo = {
+      id: nanoid(),
+      text: todoString,
+    };
+    dispatch(addTodo(todo));
 
     setTodoString("");
   };
@@ -24,6 +27,7 @@ export const TodoForm = () => {
         value={todoString}
         onChange={(e) => setTodoString(e.target.value)}
         placeholder="Enter a Todo"
+        className="bg-red-400"
       />
       <button type="submit">Submit todo</button>
     </form>
