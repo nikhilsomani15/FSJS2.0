@@ -36,7 +36,7 @@
 //   },
 // });
 
-import { configureStore, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 export const todosSlice = createSlice({
   name: "todos",

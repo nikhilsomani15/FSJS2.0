@@ -52,7 +52,7 @@
 // export default Todos;
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addTodo, removeTodo, editTodo } from "../features/todoSlice";
+import { removeTodo, editTodo } from "../features/todoSlice";
 import { TodoForm } from "./TodoForm";
 
 const TodoItem = ({ id, text }) => {
@@ -86,40 +86,19 @@ const TodoItem = ({ id, text }) => {
         <div>
           <p>{text}</p>
           <button onClick={() => setIsEditing(true)}>Edit</button>
-          <button onClick={handleDelete}>Delete</button>
+          <button className="m-2" onClick={handleDelete}>
+            Delete
+          </button>
         </div>
       )}
     </div>
   );
 };
 const TodoList = () => {
-  const [newTodoText, setNewTodoText] = useState("");
   const todos = useSelector((state) => state.todos);
-  const dispatch = useDispatch();
-
-  const handleAddTodo = () => {
-    if (newTodoText.trim() === "") {
-      return;
-    }
-    const newTodo = {
-      id: Date.now(),
-      text: newTodoText,
-    };
-    dispatch(addTodo(newTodo));
-    setNewTodoText("");
-  };
-
   return (
     <div>
-      <h1>Todo List</h1>
-      {/*<div>
-        <input
-          type="text"
-          value={newTodoText}
-          onChange={(e) => setNewTodoText(e.target.value)}
-        />
-        <button onClick={handleAddTodo}>Add</button>
-      </div>*/}
+      <h1>Todos List</h1>
       <div>
         {todos.map((todo) => (
           <TodoItem key={todo.id} id={todo.id} text={todo.text} />
